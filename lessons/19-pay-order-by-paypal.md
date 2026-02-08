@@ -17,8 +17,8 @@ SENDER_NAME=support
 ### PayPal. get api keys from https://developer.paypal.com
 
 PAYPAL_API_URL=https://api-m.sandbox.paypal.com
-PAYPAL_CLIENT_ID=xx
-PAYPAL_APP_SECRET=xx
+PAYPAL_CLIENT_ID=ATOJe5dyUCxOVMfC_dgWidmVxfJSn3Z3_AGREmQgF_ВyZRGguC10bMUВbJnеchz9ptlHЕIuS1nJKoсX8
+PAYPAL_APP_SECRET=EFtk1YgsTRoFxоТ5wRіbCJНkrzZ7KYхЗеjleStРE8ykЕir2UgqmIqGuy9h7ØchIСk9gUkrvYЗvQØy1GEl
 
 ## update lib/constants.ts
 
