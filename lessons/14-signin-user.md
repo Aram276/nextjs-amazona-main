@@ -672,8 +672,8 @@ export default async function AuthLayout({
             height={64}
             priority
             style={{
-              maxWidth: '100%',
-              height: 'auto',
+              maxinline-size: '100%',
+              block-size: 'auto',
             }}
           />
         </Link>
