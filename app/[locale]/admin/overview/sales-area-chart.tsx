@@ -44,7 +44,8 @@ const CustomTooltip: React.FC<CustomTooltipProps> = ({
   return null
 }
 
-const CustomXAxisTick: React.FC<any> = ({ x, y, payload }) => {
+
+const CustomXAxisTick: React.FC<any> = ({ x = 0, y = 0, payload }) => {
   return (
     <text
       x={x}
@@ -53,10 +54,11 @@ const CustomXAxisTick: React.FC<any> = ({ x, y, payload }) => {
       fill='#666'
       className='text-xs'
     >
-      {formatDateTime(new Date(payload.value)).dateOnly}
+      {payload?.value && formatDateTime(new Date(payload.value)).dateOnly}
     </text>
   )
 }
+
 
 const STROKE_COLORS: { [key: string]: { [key: string]: string } } = {
   Red: { light: '#980404', dark: '#ff3333' },
